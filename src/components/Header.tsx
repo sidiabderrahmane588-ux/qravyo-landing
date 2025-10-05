@@ -31,6 +31,10 @@ const Header = () => {
               alt="QRAVYO" 
               className="h-10 w-auto"
             />
+              src="/Capture d'écran 2025-10-06 à 00.04.52.png" 
+              alt="QRAVYO" 
+              className="h-10 w-auto"
+            />
           </div>
           
           <button
