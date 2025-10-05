@@ -26,11 +26,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <img 
-              src="/Capture d'écran 2025-10-06 à 00.04.52.png" 
-              alt="QRAVYO" 
-              className="h-10 w-auto"
-            />
+            <h1 className="text-2xl font-bold text-gray-900">QRAVYO</h1>
               src="/Capture d'écran 2025-10-06 à 00.04.52.png" 
               alt="QRAVYO" 
               className="h-10 w-auto"
