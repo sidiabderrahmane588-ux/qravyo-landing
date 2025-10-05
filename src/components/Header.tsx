@@ -26,9 +26,11 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold text-gray-900 tracking-tight">
-              QRAVYO
-            </h1>
+            <img 
+              src="/Capture d'écran 2025-10-06 à 00.04.52.png" 
+              alt="QRAVYO" 
+              className="h-10 w-auto"
+            />
           </div>
           
           <button
