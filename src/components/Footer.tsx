@@ -51,15 +51,29 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold">Légal</h4>
             <div className="space-y-3">
-              <a href="#" className="flex items-center space-x-2 text-gray-400 hover:text-white 
+              <a href="#" className="block text-gray-400 hover:text-white
                                    transition-colors duration-200">
-                <Shield size={18} />
-                <span>Confidentialité</span>
+                Mentions légales
               </a>
-              <a href="#" className="flex items-center space-x-2 text-gray-400 hover:text-white 
+              <a href="#" className="block text-gray-400 hover:text-white
                                    transition-colors duration-200">
-                <FileText size={18} />
-                <span>Mentions légales</span>
+                Politique de confidentialité
+              </a>
+              <a href="#" className="block text-gray-400 hover:text-white
+                                   transition-colors duration-200">
+                Politique de remboursement
+              </a>
+              <a href="#" className="block text-gray-400 hover:text-white
+                                   transition-colors duration-200">
+                Politique d'expédition
+              </a>
+              <a href="#" className="block text-gray-400 hover:text-white
+                                   transition-colors duration-200">
+                Conditions de vente
+              </a>
+              <a href="#" className="block text-gray-400 hover:text-white
+                                   transition-colors duration-200">
+                Conditions d'utilisation
               </a>
             </div>
           </div>
@@ -67,39 +81,14 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8">
-          <div className="flex flex-col space-y-6">
-            {/* Legal Links */}
-            <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                Mentions légales
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                Politique de confidentialité
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                Politique de remboursement
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                Politique d'expédition
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                Conditions de vente
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                Conditions d'utilisation
-              </a>
-            </div>
-
-            {/* Copyright & Stripe */}
-            <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-              <p className="text-gray-400 text-sm">
-                © {currentYear} QRAVYO. Tous droits réservés.
-              </p>
-              <div className="flex items-center space-x-2 text-sm text-gray-400">
-                <span>Paiements sécurisés par</span>
-                <div className="bg-white rounded px-2 py-1">
-                  <span className="text-purple-600 font-bold">stripe</span>
-                </div>
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <p className="text-gray-400 text-sm">
+              © {currentYear} QRAVYO. Tous droits réservés.
+            </p>
+            <div className="flex items-center space-x-2 text-sm text-gray-400">
+              <span>Paiements sécurisés par</span>
+              <div className="bg-white rounded px-2 py-1">
+                <span className="text-purple-600 font-bold">stripe</span>
               </div>
             </div>
           </div>
