@@ -1,5 +1,5 @@
 import React from 'react';
-import { Settings, Shield, FileText } from 'lucide-react';
+import { FileText } from 'lucide-react';
 
 const Footer = () => {
   const handleSubscribe = () => {
@@ -34,46 +34,39 @@ const Footer = () => {
             </button>
           </div>
 
-          {/* Contact */}
-          <div className="space-y-4">
-            <h4 className="text-lg font-semibold">Paramètres</h4>
+          {/* Informations */}
+          <div className="space-y-4 md:col-span-2">
+            <h4 className="text-lg font-semibold">Informations</h4>
             <div className="space-y-3">
-              <a href="#" 
-                 className="flex items-center space-x-2 text-gray-400 hover:text-white 
-                          transition-colors duration-200">
-                <Settings size={18} />
-                <span>Configuration</span>
-              </a>
-            </div>
-          </div>
-
-          {/* Legal */}
-          <div className="space-y-4">
-            <h4 className="text-lg font-semibold">Légal</h4>
-            <div className="space-y-3">
-              <a href="#" className="block text-gray-400 hover:text-white
+              <a href="#" className="flex items-center space-x-2 text-gray-400 hover:text-white
                                    transition-colors duration-200">
-                Mentions légales
+                <FileText size={18} />
+                <span>Mentions légales</span>
               </a>
-              <a href="#" className="block text-gray-400 hover:text-white
+              <a href="#" className="flex items-center space-x-2 text-gray-400 hover:text-white
                                    transition-colors duration-200">
-                Politique de confidentialité
+                <FileText size={18} />
+                <span>Politique de confidentialité</span>
               </a>
-              <a href="#" className="block text-gray-400 hover:text-white
+              <a href="#" className="flex items-center space-x-2 text-gray-400 hover:text-white
                                    transition-colors duration-200">
-                Politique de remboursement
+                <FileText size={18} />
+                <span>Politique de remboursement</span>
               </a>
-              <a href="#" className="block text-gray-400 hover:text-white
+              <a href="#" className="flex items-center space-x-2 text-gray-400 hover:text-white
                                    transition-colors duration-200">
-                Politique d'expédition
+                <FileText size={18} />
+                <span>Politique d'expédition</span>
               </a>
-              <a href="#" className="block text-gray-400 hover:text-white
+              <a href="#" className="flex items-center space-x-2 text-gray-400 hover:text-white
                                    transition-colors duration-200">
-                Conditions de vente
+                <FileText size={18} />
+                <span>Conditions de vente</span>
               </a>
-              <a href="#" className="block text-gray-400 hover:text-white
+              <a href="#" className="flex items-center space-x-2 text-gray-400 hover:text-white
                                    transition-colors duration-200">
-                Conditions d'utilisation
+                <FileText size={18} />
+                <span>Conditions d'utilisation</span>
               </a>
             </div>
           </div>
