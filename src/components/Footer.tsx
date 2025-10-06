@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { FileText } from 'lucide-react';
 import LegalModal from './LegalModal';
+import PrivacyModal from './PrivacyModal';
 
 const Footer = () => {
   const [isLegalModalOpen, setIsLegalModalOpen] = useState(false);
+  const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);
 
   const handleSubscribe = () => {
     window.open('https://buy.stripe.com/test_your_checkout_link', '_blank');
@@ -48,11 +50,13 @@ const Footer = () => {
                 <FileText size={18} />
                 <span>Mentions légales</span>
               </button>
-              <a href="#" className="flex items-center space-x-2 text-gray-400 hover:text-white
-                                   transition-colors duration-200">
+              <button
+                onClick={() => setIsPrivacyModalOpen(true)}
+                className="flex items-center space-x-2 text-gray-400 hover:text-white
+                          transition-colors duration-200">
                 <FileText size={18} />
                 <span>Politique de confidentialité</span>
-              </a>
+              </button>
               <a href="#" className="flex items-center space-x-2 text-gray-400 hover:text-white
                                    transition-colors duration-200">
                 <FileText size={18} />
@@ -94,6 +98,7 @@ const Footer = () => {
       </div>
 
       <LegalModal isOpen={isLegalModalOpen} onClose={() => setIsLegalModalOpen(false)} />
+      <PrivacyModal isOpen={isPrivacyModalOpen} onClose={() => setIsPrivacyModalOpen(false)} />
     </footer>
   );
 };
