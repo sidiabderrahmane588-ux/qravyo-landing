@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FileText } from 'lucide-react';
+import LegalModal from './LegalModal';
 
 const Footer = () => {
+  const [isLegalModalOpen, setIsLegalModalOpen] = useState(false);
+
   const handleSubscribe = () => {
     window.open('https://buy.stripe.com/test_your_checkout_link', '_blank');
   };
@@ -38,11 +41,13 @@ const Footer = () => {
           <div className="space-y-4 md:col-span-2">
             <h4 className="text-lg font-semibold">Informations</h4>
             <div className="space-y-3">
-              <a href="#" className="flex items-center space-x-2 text-gray-400 hover:text-white
-                                   transition-colors duration-200">
+              <button
+                onClick={() => setIsLegalModalOpen(true)}
+                className="flex items-center space-x-2 text-gray-400 hover:text-white
+                          transition-colors duration-200">
                 <FileText size={18} />
                 <span>Mentions légales</span>
-              </a>
+              </button>
               <a href="#" className="flex items-center space-x-2 text-gray-400 hover:text-white
                                    transition-colors duration-200">
                 <FileText size={18} />
@@ -87,6 +92,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      <LegalModal isOpen={isLegalModalOpen} onClose={() => setIsLegalModalOpen(false)} />
     </footer>
   );
 };
