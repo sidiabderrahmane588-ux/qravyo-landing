@@ -31,7 +31,7 @@ const HowItWorks = () => {
             Comment ça marche ?
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Un processus simple en 3 étapes pour transformer vos clients en ambassadeurs
+            Un processus simple en 3 étapes
           </p>
         </div>
 
