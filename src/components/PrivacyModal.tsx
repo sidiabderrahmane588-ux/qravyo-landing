@@ -32,79 +32,99 @@ const PrivacyModal: React.FC<PrivacyModalProps> = ({ isOpen, onClose }) => {
             </div>
 
             <div className="prose max-w-none text-gray-700 space-y-6 max-h-[70vh] overflow-y-auto">
+              <p className="text-sm text-gray-500 mb-4">Dernière mise à jour : 10 octobre 2025</p>
+
               <p>
-                Chez <strong>Qravyo</strong>, nous nous engageons à protéger votre vie privée et à garantir la sécurité de vos données personnelles.
-                Cette politique de confidentialité vous explique comment nous collectons, utilisons, partageons et protégeons vos données personnelles lorsque vous utilisez notre site <strong>qravyo.com</strong> et nos services.
+                Chez <strong>QRAVYO</strong>, nous nous engageons à protéger votre vie privée et à garantir la sécurité de vos données personnelles.
+                Cette politique de confidentialité explique comment nous collectons, utilisons, partageons et protégeons vos données personnelles lorsque vous utilisez notre site <strong>qravyo.com</strong> et nos services.
               </p>
 
               <section>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">1. Données collectées</h3>
-                <p>Nous collectons plusieurs types de données personnelles lorsque vous interagissez avec notre site et nos services, telles que :</p>
+                <p>Nous pouvons collecter plusieurs types de données personnelles lorsque vous interagissez avec notre site et nos services, notamment :</p>
                 <ul className="list-disc list-inside ml-4 space-y-1">
                   <li><strong>Informations personnelles</strong> : nom, prénom, adresse email, numéro de téléphone, adresse postale.</li>
-                  <li><strong>Données de paiement</strong> : informations nécessaires pour traiter vos paiements (via le prestataire <strong>Stripe</strong>, conforme aux normes de sécurité PCI-DSS).</li>
-                  <li><strong>Données de navigation</strong> : adresse IP, type de navigateur, pages visitées, heure et durée de la visite, informations sur votre appareil (cookies).</li>
+                  <li><strong>Données de paiement</strong> : informations nécessaires pour traiter vos paiements (via un prestataire de paiement sécurisé).</li>
+                  <li><strong>Données de navigation</strong> : adresse IP, type de navigateur, pages visitées, durée de la visite, informations sur votre appareil (cookies).</li>
                 </ul>
               </section>
 
               <section>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">2. Utilisation des données</h3>
-                <p>Les données personnelles que nous collectons sont utilisées pour :</p>
+                <p>Les données collectées sont utilisées pour :</p>
                 <ul className="list-disc list-inside ml-4 space-y-1">
                   <li>Fournir et améliorer nos services.</li>
-                  <li>Gérer les abonnements et traiter les paiements.</li>
-                  <li>Vous envoyer des informations relatives à votre compte, des confirmations de commande ou des mises à jour importantes.</li>
-                  <li>Vous informer de nos offres, nouveautés ou promotions, si vous avez consenti à recevoir ces communications.</li>
-                  <li>Analyser les performances du site et améliorer l'expérience utilisateur.</li>
+                  <li>Traiter vos commandes et paiements.</li>
+                  <li>Vous envoyer des informations relatives à votre compte, vos abonnements ou des mises à jour importantes.</li>
+                  <li>Vous informer de nos promotions, offres spéciales ou nouveautés (si vous avez donné votre consentement).</li>
+                  <li>Analyser les performances du site et améliorer votre expérience utilisateur.</li>
                 </ul>
               </section>
 
               <section>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">3. Partage des données</h3>
-                <p><strong>Qravyo</strong> ne vend pas vos données personnelles à des tiers. Nous pouvons partager vos données dans les cas suivants :</p>
+                <p><strong>QRAVYO</strong> ne vend pas vos données personnelles.</p>
+                <p>Elles peuvent être partagées uniquement dans les cas suivants :</p>
                 <ul className="list-disc list-inside ml-4 space-y-1">
-                  <li><strong>Prestataires de services tiers</strong> : avec nos partenaires de confiance (comme <strong>Stripe</strong> pour les paiements ou Vercel pour l'hébergement) afin d\'assurer la gestion des transactions et des services.</li>
-                  <li><strong>Obligations légales</strong> : si la loi l'exige ou pour protéger nos droits et la sécurité de nos utilisateurs.</li>
+                  <li><strong>Prestataires de services tiers</strong> : par exemple, prestataires de paiement ou partenaires techniques pour la gestion de l'hébergement ou des transactions.</li>
+                  <li><strong>Obligations légales</strong> : si la loi nous y oblige ou pour protéger nos droits et notre sécurité.</li>
                 </ul>
               </section>
 
               <section>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">4. Protection des données</h3>
-                <p>Nous mettons en place des mesures techniques et organisationnelles appropriées pour garantir la sécurité de vos données personnelles contre la perte, l'accès non autorisé, la modification ou la divulgation.</p>
+                <p>
+                  Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles pour protéger vos données contre la perte, l'accès non autorisé, l'altération ou la divulgation.
+                </p>
+                <p>
+                  L'accès à vos données est strictement limité aux personnes autorisées.
+                </p>
               </section>
 
               <section>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">5. Vos droits</h3>
-                <p>Conformément au Règlement Général sur la Protection des Données (<strong>RGPD</strong>) et à la loi "Informatique et Libertés" du 6 janvier 1978, vous disposez des droits suivants :</p>
+                <p>Conformément au <strong>Règlement Général sur la Protection des Données (RGPD)</strong>, vous disposez des droits suivants :</p>
                 <ul className="list-disc list-inside ml-4 space-y-1">
-                  <li><strong>Droit d'accès</strong> : obtenir une copie de vos données personnelles.</li>
-                  <li><strong>Droit de rectification</strong> : corriger vos données si elles sont inexactes.</li>
-                  <li><strong>Droit à l'effacement</strong> : demander la suppression de vos données dans certaines conditions.</li>
-                  <li><strong>Droit à la portabilité</strong> : recevoir vos données dans un format structuré, couramment utilisé et lisible par machine.</li>
-                  <li><strong>Droit d'opposition</strong> : vous opposer au traitement de vos données, notamment à des fins de prospection commerciale.</li>
+                  <li><strong>Droit d'accès</strong> : obtenir une copie des données personnelles que nous détenons sur vous.</li>
+                  <li><strong>Droit de rectification</strong> : corriger des informations inexactes ou incomplètes.</li>
+                  <li><strong>Droit à l'effacement</strong> : demander la suppression de vos données, sous certaines conditions.</li>
+                  <li><strong>Droit à la portabilité</strong> : recevoir vos données dans un format structuré et lisible par machine.</li>
+                  <li><strong>Droit d'opposition</strong> : refuser le traitement de vos données à des fins spécifiques (notamment marketing).</li>
                 </ul>
-                <p className="mt-2">Pour exercer vos droits, contactez-nous à l'adresse suivante :</p>
-                <p><strong>Email</strong> : <a href="mailto:qravyo@gmail.com" className="text-blue-600 hover:underline">qravyo@gmail.com</a></p>
-                <p><strong>Adresse postale</strong> : 1 Rue Albert Thomas, <strong>Fresnes, France</strong></p>
+                <p className="mt-2">Pour exercer vos droits, contactez-nous à : <a href="mailto:qravyo@gmail.com" className="text-blue-600 hover:underline"><strong>qravyo@gmail.com</strong></a></p>
               </section>
 
               <section>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">6. Cookies</h3>
-                <p>Le site utilise des cookies afin d'améliorer votre expérience, analyser le trafic et personnaliser le contenu.</p>
-                <p>Un cookie est un petit fichier stocké sur votre appareil lors de votre visite. Vous pouvez gérer ou désactiver les cookies dans les paramètres de votre navigateur.</p>
-                <p>Pour plus d'informations, consultez notre <strong>Politique de Cookies</strong>.</p>
+                <p>
+                  Le site <strong>qravyo.com</strong> utilise des cookies pour améliorer votre expérience, analyser le trafic et personnaliser le contenu.
+                </p>
+                <p>
+                  Les cookies sont de petits fichiers stockés sur votre appareil.
+                </p>
+                <p>
+                  Vous pouvez refuser ou gérer l'utilisation des cookies via les paramètres de votre navigateur.
+                </p>
               </section>
 
               <section>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">7. Modifications de la politique de confidentialité</h3>
-                <p>Qravyo se réserve le droit de mettre à jour cette politique de confidentialité à tout moment. Toute modification sera publiée sur cette page et prendra effet immédiatement. Nous vous recommandons de consulter régulièrement cette politique afin de rester informé des éventuelles mises à jour.</p>
+                <p>
+                  QRAVYO se réserve le droit de modifier cette politique à tout moment.
+                </p>
+                <p>
+                  Toute mise à jour sera publiée sur cette page et prendra effet immédiatement.
+                </p>
+                <p>
+                  Nous vous invitons à la consulter régulièrement pour rester informé de la manière dont vos données sont protégées.
+                </p>
               </section>
 
               <section>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">8. Contact</h3>
-                <p>Si vous avez des questions concernant cette politique de confidentialité ou si vous souhaitez exercer vos droits, vous pouvez nous contacter à :</p>
+                <p>Pour toute question concernant cette politique ou l'exercice de vos droits :</p>
                 <p><strong>Email</strong> : <a href="mailto:qravyo@gmail.com" className="text-blue-600 hover:underline">qravyo@gmail.com</a></p>
-                <p><strong>Adresse postale</strong> : 1 Rue Albert Thomas, <strong>Fresnes, France</strong></p>
+                <p><strong>Adresse</strong> : 1 rue Albert Thomas, France</p>
               </section>
             </div>
           </div>
