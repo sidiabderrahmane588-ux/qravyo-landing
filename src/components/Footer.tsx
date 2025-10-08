@@ -5,6 +5,7 @@ import PrivacyModal from './PrivacyModal';
 import RefundModal from './RefundModal';
 import ShippingModal from './ShippingModal';
 import TermsOfSaleModal from './TermsOfSaleModal';
+import TermsOfUseModal from './TermsOfUseModal';
 
 const Footer = () => {
   const [isLegalModalOpen, setIsLegalModalOpen] = useState(false);
@@ -12,6 +13,7 @@ const Footer = () => {
   const [isRefundModalOpen, setIsRefundModalOpen] = useState(false);
   const [isShippingModalOpen, setIsShippingModalOpen] = useState(false);
   const [isTermsOfSaleModalOpen, setIsTermsOfSaleModalOpen] = useState(false);
+  const [isTermsOfUseModalOpen, setIsTermsOfUseModalOpen] = useState(false);
 
   const handleSubscribe = () => {
     window.open('https://buy.stripe.com/test_your_checkout_link', '_blank');
@@ -84,11 +86,13 @@ const Footer = () => {
                 <FileText size={18} />
                 <span>Conditions de vente</span>
               </button>
-              <a href="#" className="flex items-center space-x-2 text-gray-400 hover:text-white
-                                   transition-colors duration-200">
+              <button
+                onClick={() => setIsTermsOfUseModalOpen(true)}
+                className="flex items-center space-x-2 text-gray-400 hover:text-white
+                          transition-colors duration-200">
                 <FileText size={18} />
                 <span>Conditions d'utilisation</span>
-              </a>
+              </button>
             </div>
           </div>
         </div>
@@ -114,6 +118,7 @@ const Footer = () => {
       <RefundModal isOpen={isRefundModalOpen} onClose={() => setIsRefundModalOpen(false)} />
       <ShippingModal isOpen={isShippingModalOpen} onClose={() => setIsShippingModalOpen(false)} />
       <TermsOfSaleModal isOpen={isTermsOfSaleModalOpen} onClose={() => setIsTermsOfSaleModalOpen(false)} />
+      <TermsOfUseModal isOpen={isTermsOfUseModalOpen} onClose={() => setIsTermsOfUseModalOpen(false)} />
     </footer>
   );
 };
