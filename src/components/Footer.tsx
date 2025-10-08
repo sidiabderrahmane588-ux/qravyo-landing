@@ -4,12 +4,14 @@ import LegalModal from './LegalModal';
 import PrivacyModal from './PrivacyModal';
 import RefundModal from './RefundModal';
 import ShippingModal from './ShippingModal';
+import TermsOfSaleModal from './TermsOfSaleModal';
 
 const Footer = () => {
   const [isLegalModalOpen, setIsLegalModalOpen] = useState(false);
   const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);
   const [isRefundModalOpen, setIsRefundModalOpen] = useState(false);
   const [isShippingModalOpen, setIsShippingModalOpen] = useState(false);
+  const [isTermsOfSaleModalOpen, setIsTermsOfSaleModalOpen] = useState(false);
 
   const handleSubscribe = () => {
     window.open('https://buy.stripe.com/test_your_checkout_link', '_blank');
@@ -75,11 +77,13 @@ const Footer = () => {
                 <FileText size={18} />
                 <span>Politique d'expédition</span>
               </button>
-              <a href="#" className="flex items-center space-x-2 text-gray-400 hover:text-white
-                                   transition-colors duration-200">
+              <button
+                onClick={() => setIsTermsOfSaleModalOpen(true)}
+                className="flex items-center space-x-2 text-gray-400 hover:text-white
+                          transition-colors duration-200">
                 <FileText size={18} />
                 <span>Conditions de vente</span>
-              </a>
+              </button>
               <a href="#" className="flex items-center space-x-2 text-gray-400 hover:text-white
                                    transition-colors duration-200">
                 <FileText size={18} />
@@ -109,6 +113,7 @@ const Footer = () => {
       <PrivacyModal isOpen={isPrivacyModalOpen} onClose={() => setIsPrivacyModalOpen(false)} />
       <RefundModal isOpen={isRefundModalOpen} onClose={() => setIsRefundModalOpen(false)} />
       <ShippingModal isOpen={isShippingModalOpen} onClose={() => setIsShippingModalOpen(false)} />
+      <TermsOfSaleModal isOpen={isTermsOfSaleModalOpen} onClose={() => setIsTermsOfSaleModalOpen(false)} />
     </footer>
   );
 };
