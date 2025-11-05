@@ -44,9 +44,10 @@ const LegalModal: React.FC<LegalModalProps> = ({ isOpen, onClose }) => {
               </section>
 
               <section>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">2. Directeur de la publication</h3>
-                <p>Le directeur de la publication est :</p>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">2. Directeurs de la publication</h3>
+                <p>Les directeurs de la publication sont :</p>
                 <p><strong>M. Sebastian Hrisca</strong></p>
+                <p><strong>M. Sidi Abderrahmane</strong></p>
               </section>
 
               <section>
