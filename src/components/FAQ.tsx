@@ -25,7 +25,7 @@ const faqData: FAQItem[] = [
   },
   {
     question: "Combien ça coûte ?",
-    answer: "Qravyo fonctionne sur un abonnement simple et sans engagement :\n299,99€ par an ou 49,99€ par mois"
+    answer: "Qravyo fonctionne sur un abonnement simple et sans engagement :\n349,99€ par an ou 49,99€ par mois"
   },
   {
     question: "Puis-je annuler mon abonnement à tout moment ?",

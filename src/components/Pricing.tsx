@@ -77,10 +77,10 @@ const Pricing = () => {
                 <div className="space-y-2">
                   <h3 className="text-2xl font-bold">Annuel</h3>
                   <div className="flex items-center justify-center space-x-1">
-                    <span className="text-4xl font-bold">299,99€</span>
+                    <span className="text-4xl font-bold">349,99€</span>
                     <span className="text-green-100">/an</span>
                   </div>
-                  <p className="text-green-100 text-sm">Économisez 300€/an</p>
+                  <p className="text-green-100 text-sm">Économisez 250€/an</p>
                 </div>
 
                 <ul className="space-y-3">
