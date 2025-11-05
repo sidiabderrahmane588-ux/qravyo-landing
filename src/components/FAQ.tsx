@@ -33,7 +33,7 @@ const faqData: FAQItem[] = [
   },
   {
     question: "Comment démarrer ?",
-    answer: "Cliquez sur \"Acheter\", créez votre compte, et recevez votre affiche prête à poser dans votre commerce."
+    answer: "Cliquez sur \"Je m'abonne\", créez votre compte, et recevez votre affiche prête à poser dans votre commerce."
   }
 ];
 
