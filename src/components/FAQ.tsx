@@ -91,17 +91,6 @@ const FAQ = () => {
           ))}
         </div>
 
-        <div className="mt-12 text-center">
-          <p className="text-gray-600 mb-4">
-            Vous avez d'autres questions ?
-          </p>
-          <a
-            href="mailto:qravyo@gmail.com"
-            className="inline-flex items-center justify-center px-8 py-3 text-base font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors duration-200"
-          >
-            Contactez-nous
-          </a>
-        </div>
       </div>
     </section>
   );
