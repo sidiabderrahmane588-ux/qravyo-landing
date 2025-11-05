@@ -64,23 +64,28 @@ const Pricing = () => {
             <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-3xl p-8 shadow-xl 
                           transform hover:scale-105 transition-all duration-300 relative overflow-hidden">
               
-              {/* Popular Badge */}
+              {/* Launch Offer Badge */}
               <div className="absolute top-4 right-4">
-                <div className="bg-yellow-400 text-yellow-900 text-xs font-bold px-3 py-1 rounded-full
-                              flex items-center space-x-1">
+                <div className="bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full
+                              flex items-center space-x-1 animate-pulse">
                   <Zap size={12} />
-                  <span>POPULAIRE</span>
+                  <span>-15% OFFRE DE LANCEMENT</span>
                 </div>
               </div>
 
               <div className="text-center space-y-6 text-white">
                 <div className="space-y-2">
                   <h3 className="text-2xl font-bold">Annuel</h3>
-                  <div className="flex items-center justify-center space-x-1">
-                    <span className="text-4xl font-bold">349,99€</span>
-                    <span className="text-green-100">/an</span>
+                  <div className="flex flex-col items-center">
+                    <div className="flex items-center justify-center space-x-2">
+                      <span className="text-2xl font-semibold line-through text-green-200 opacity-75">349,99€</span>
+                    </div>
+                    <div className="flex items-center justify-center space-x-1">
+                      <span className="text-4xl font-bold">297,49€</span>
+                      <span className="text-green-100">/an</span>
+                    </div>
                   </div>
-                  <p className="text-green-100 text-sm">Économisez 250€/an</p>
+                  <p className="text-green-100 text-sm font-semibold">Économisez 302€/an · Offre limitée !</p>
                 </div>
 
                 <ul className="space-y-3">
