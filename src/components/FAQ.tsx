@@ -13,7 +13,7 @@ const faqData: FAQItem[] = [
   },
   {
     question: "Comment ça fonctionne ?",
-    answer: "C'est très simple : Vous recevez une affiche, vous la placez sur le comptoir, le client scanne le QR code, laisse son avis et tourne la roue."
+    answer: "C'est très simple :\n- Vous recevez une affiche\n- Vous la placez sur le comptoir\n- Le client scanne le QR code\n- Il laisse son avis\n- Il tourne la roue"
   },
   {
     question: "Qui offre les cadeaux ?",
@@ -83,7 +83,7 @@ const FAQ = () => {
                   openIndex === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
                 }`}
               >
-                <div className="px-6 pb-5 text-gray-600 leading-relaxed">
+                <div className="px-6 pb-5 text-gray-600 leading-relaxed whitespace-pre-line">
                   {item.answer}
                 </div>
               </div>
