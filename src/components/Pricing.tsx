@@ -3,7 +3,7 @@ import { Check, Zap } from 'lucide-react';
 
 const features = [
   "Accès à la roue de la chance",
-  "Disponible 24h/24 7/7 à qravyo@gmail.com",
+  "Support client 7j/7",
   "Configuration rapide",
   "Mise à jour gratuite"
 ];
