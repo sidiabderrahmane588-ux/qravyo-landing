@@ -9,7 +9,7 @@ interface FAQItem {
 const faqData: FAQItem[] = [
   {
     question: "Qu'est-ce que Qravyo ?",
-    answer: "Qravyo est un outil marketing simple et ludique qui aide les commerces à obtenir plus d'avis clients grâce à une roue de la fortune virtuelle. Le client scanne un QR code, laisse un avis, puis tourne la roue pour tenter de gagner un cadeau offert par Qravyo."
+    answer: "Qravyo est un outil marketing simple et ludique qui aide les commerces à obtenir plus d'avis clients grâce à une roue de la fortune virtuelle."
   },
   {
     question: "Comment ça fonctionne ?",
