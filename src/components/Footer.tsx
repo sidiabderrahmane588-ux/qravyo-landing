@@ -15,10 +15,6 @@ const Footer = () => {
   const [isTermsOfSaleModalOpen, setIsTermsOfSaleModalOpen] = useState(false);
   const [isTermsOfUseModalOpen, setIsTermsOfUseModalOpen] = useState(false);
 
-  const handleSubscribe = () => {
-    window.open('https://buy.stripe.com/test_your_checkout_link', '_blank');
-  };
-
   const currentYear = new Date().getFullYear();
 
   return (
@@ -32,19 +28,9 @@ const Footer = () => {
           <div className="md:col-span-2 space-y-4">
             <h3 className="text-2xl font-bold tracking-tight">QRAVYO</h3>
             <p className="text-gray-400 leading-relaxed max-w-md">
-              La solution moderne pour booster vos avis Google et fidéliser vos clients 
+              La solution moderne pour booster vos avis Google et fidéliser vos clients
               grâce à la gamification.
             </p>
-            
-            {/* CTA Button */}
-            <button 
-              onClick={handleSubscribe}
-              className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-full 
-                       transition-all duration-200 transform hover:scale-105 active:scale-95
-                       shadow-lg hover:shadow-xl inline-flex items-center space-x-2"
-            >
-              <span>Commencer maintenant</span>
-            </button>
           </div>
 
           {/* Informations */}
