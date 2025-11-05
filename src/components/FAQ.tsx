@@ -21,7 +21,7 @@ const faqData: FAQItem[] = [
   },
   {
     question: "Quels sont les avantages de Qravyo ?",
-    answer: "Avec Qravyo, vos clients satisfaits deviennent vos meilleurs ambassadeurs ! ✨ Plus d'avis clients, 📈 Plus grande Visibilité et meilleure réputation en ligne, 💰 Augmentation du chiffre d'affaires grâce à la fidélisation et à l'attraction de nouveaux clients sans effort."
+    answer: "Avec Qravyo, vos clients satisfaits deviennent vos meilleurs ambassadeurs !\n- Plus d'avis clients\n- Plus grande visibilité et meilleure réputation en ligne\n- Augmentation du chiffre d'affaires grâce à la fidélisation et à l'attraction de nouveaux clients sans effort"
   },
   {
     question: "Combien ça coûte ?",
