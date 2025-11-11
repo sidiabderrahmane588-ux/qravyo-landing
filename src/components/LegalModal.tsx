@@ -53,9 +53,9 @@ const LegalModal: React.FC<LegalModalProps> = ({ isOpen, onClose }) => {
               <section>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">3. Hébergement</h3>
                 <p>Le site est hébergé par :</p>
-                <p><strong>Vercel Inc.</strong></p>
-                <p>Site web : <a href="https://vercel.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://vercel.com</a></p>
-                <p>Services : hébergement web, déploiement d'applications, cloud computing.</p>
+                <p><strong>Hostinger</strong></p>
+                <p>Site web : <a href="https://www.hostinger.fr" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://www.hostinger.fr</a></p>
+                <p>Services : hébergement web.</p>
               </section>
 
               <section>
