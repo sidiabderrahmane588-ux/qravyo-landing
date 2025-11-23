@@ -90,7 +90,7 @@ const Footer = () => {
               href="https://instagram.com/qravyo"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-pink-500 transition-colors duration-200"
+              className="text-pink-500 hover:text-pink-400 transition-colors duration-200"
               aria-label="Instagram"
             >
               <Instagram size={28} />
@@ -99,7 +99,7 @@ const Footer = () => {
               href="https://facebook.com/qravyo"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-blue-500 transition-colors duration-200"
+              className="text-blue-600 hover:text-blue-500 transition-colors duration-200"
               aria-label="Facebook"
             >
               <Facebook size={28} />
@@ -108,7 +108,7 @@ const Footer = () => {
               href="https://twitter.com/qravyo"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-sky-400 transition-colors duration-200"
+              className="text-sky-500 hover:text-sky-400 transition-colors duration-200"
               aria-label="Twitter"
             >
               <Twitter size={28} />
@@ -117,7 +117,7 @@ const Footer = () => {
               href="https://tiktok.com/@qravyo"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors duration-200"
+              className="text-white hover:text-gray-300 transition-colors duration-200"
               aria-label="TikTok"
             >
               <svg
