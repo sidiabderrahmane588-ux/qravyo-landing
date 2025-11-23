@@ -53,42 +53,42 @@ const Footer = () => {
                 onClick={() => setIsLegalModalOpen(true)}
                 className="flex items-center space-x-2 text-gray-400 hover:text-white
                           transition-colors duration-200">
-                <FileText size={18} />
+                <FileText size={18} className="text-orange-500" />
                 <span>Mentions légales</span>
               </button>
               <button
                 onClick={() => setIsPrivacyModalOpen(true)}
                 className="flex items-center space-x-2 text-gray-400 hover:text-white
                           transition-colors duration-200">
-                <FileText size={18} />
+                <FileText size={18} className="text-orange-500" />
                 <span>Politique de confidentialité</span>
               </button>
               <button
                 onClick={() => setIsRefundModalOpen(true)}
                 className="flex items-center space-x-2 text-gray-400 hover:text-white
                           transition-colors duration-200">
-                <FileText size={18} />
+                <FileText size={18} className="text-orange-500" />
                 <span>Politique de remboursement</span>
               </button>
               <button
                 onClick={() => setIsShippingModalOpen(true)}
                 className="flex items-center space-x-2 text-gray-400 hover:text-white
                           transition-colors duration-200">
-                <FileText size={18} />
+                <FileText size={18} className="text-orange-500" />
                 <span>Politique d'expédition</span>
               </button>
               <button
                 onClick={() => setIsTermsOfSaleModalOpen(true)}
                 className="flex items-center space-x-2 text-gray-400 hover:text-white
                           transition-colors duration-200">
-                <FileText size={18} />
+                <FileText size={18} className="text-orange-500" />
                 <span>Conditions de vente</span>
               </button>
               <button
                 onClick={() => setIsTermsOfUseModalOpen(true)}
                 className="flex items-center space-x-2 text-gray-400 hover:text-white
                           transition-colors duration-200">
-                <FileText size={18} />
+                <FileText size={18} className="text-orange-500" />
                 <span>Conditions d'utilisation</span>
               </button>
             </div>
