@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MessageCircle, MapPin } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -10,7 +10,7 @@ const Contact = () => {
             Contactez-nous
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="flex justify-center">
             <div className="flex items-start space-x-4">
               <div className="bg-blue-500 rounded-2xl p-4 flex-shrink-0">
                 <Mail className="w-8 h-8 text-yellow-400" />
@@ -18,47 +18,11 @@ const Contact = () => {
               <div>
                 <h3 className="text-xl font-semibold text-white mb-2">Email</h3>
                 <a
-                  href="mailto:contact@rushup.fr"
+                  href="mailto:Qravyo@gmail.com"
                   className="text-blue-100 hover:text-white transition-colors text-lg"
                 >
-                  contact@rushup.fr
+                  Qravyo@gmail.com
                 </a>
-              </div>
-            </div>
-
-            <div className="flex items-start space-x-4">
-              <div className="bg-blue-500 rounded-2xl p-4 flex-shrink-0">
-                <Phone className="w-8 h-8 text-yellow-400" />
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold text-white mb-2">Téléphone</h3>
-                <a
-                  href="tel:0651981614"
-                  className="text-blue-100 hover:text-white transition-colors text-lg"
-                >
-                  06.51.98.16.14
-                </a>
-              </div>
-            </div>
-
-            <div className="flex items-start space-x-4">
-              <div className="bg-blue-500 rounded-2xl p-4 flex-shrink-0">
-                <MessageCircle className="w-8 h-8 text-yellow-400" />
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold text-white mb-2">WhatsApp</h3>
-                <p className="text-blue-100 text-lg">Contact rapide</p>
-              </div>
-            </div>
-
-            <div className="flex items-start space-x-4">
-              <div className="bg-blue-500 rounded-2xl p-4 flex-shrink-0">
-                <MapPin className="w-8 h-8 text-yellow-400" />
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold text-white mb-2">Société</h3>
-                <p className="text-blue-100 text-lg">RUSHUP SASU</p>
-                <p className="text-blue-100">Hébergeur: LWS</p>
               </div>
             </div>
           </div>
