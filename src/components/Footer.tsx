@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FileText, Instagram, Facebook, Twitter, Mail } from 'lucide-react';
+import { FileText, Instagram, Facebook, Twitter } from 'lucide-react';
 import LegalModal from './LegalModal';
 import PrivacyModal from './PrivacyModal';
 import RefundModal from './RefundModal';
@@ -33,20 +33,8 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Contact */}
-          <div className="space-y-6">
-            <h4 className="text-2xl font-bold">Contact</h4>
-            <a
-              href="mailto:qravyo@gmail.com"
-              className="flex items-center space-x-3 text-gray-300 hover:text-white
-                        transition-colors duration-200 text-lg">
-              <Mail size={24} className="text-yellow-500" />
-              <span>qravyo@gmail.com</span>
-            </a>
-          </div>
-
           {/* Informations */}
-          <div className="space-y-4">
+          <div className="space-y-4 md:col-span-2">
             <h4 className="text-lg font-semibold">Informations</h4>
             <div className="space-y-3">
               <button
