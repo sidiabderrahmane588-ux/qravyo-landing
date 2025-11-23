@@ -6,10 +6,6 @@ const Contact = () => {
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-3xl p-8 sm:p-12 shadow-xl">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white text-center mb-12">
-            Contactez-nous
-          </h2>
-
           <div className="flex justify-center">
             <div className="flex items-start space-x-4">
               <div className="bg-blue-500 rounded-2xl p-4 flex-shrink-0">
