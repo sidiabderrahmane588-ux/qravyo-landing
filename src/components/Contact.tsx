@@ -3,10 +3,10 @@ import { Mail, Phone, MessageCircle, MapPin } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <section className="py-24 bg-gradient-to-br from-blue-600 to-blue-700">
+    <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-blue-700 rounded-3xl p-8 sm:p-12 shadow-2xl">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white text-center mb-12">
+        <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 sm:p-12 shadow-xl">
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 text-center mb-12">
             Contactez-nous
           </h2>
 
@@ -16,10 +16,10 @@ const Contact = () => {
                 <Mail className="w-8 h-8 text-yellow-400" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-white mb-2">Email</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Email</h3>
                 <a
                   href="mailto:contact@rushup.fr"
-                  className="text-blue-100 hover:text-white transition-colors text-lg"
+                  className="text-gray-600 hover:text-blue-600 transition-colors text-lg"
                 >
                   contact@rushup.fr
                 </a>
@@ -31,10 +31,10 @@ const Contact = () => {
                 <Phone className="w-8 h-8 text-yellow-400" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-white mb-2">Téléphone</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Téléphone</h3>
                 <a
                   href="tel:0651981614"
-                  className="text-blue-100 hover:text-white transition-colors text-lg"
+                  className="text-gray-600 hover:text-blue-600 transition-colors text-lg"
                 >
                   06.51.98.16.14
                 </a>
@@ -46,8 +46,8 @@ const Contact = () => {
                 <MessageCircle className="w-8 h-8 text-yellow-400" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-white mb-2">WhatsApp</h3>
-                <p className="text-blue-100 text-lg">Contact rapide</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">WhatsApp</h3>
+                <p className="text-gray-600 text-lg">Contact rapide</p>
               </div>
             </div>
 
@@ -56,15 +56,15 @@ const Contact = () => {
                 <MapPin className="w-8 h-8 text-yellow-400" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-white mb-2">Société</h3>
-                <p className="text-blue-100 text-lg">RUSHUP SASU</p>
-                <p className="text-blue-100">Hébergeur: LWS</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Société</h3>
+                <p className="text-gray-600 text-lg">RUSHUP SASU</p>
+                <p className="text-gray-600">Hébergeur: LWS</p>
               </div>
             </div>
           </div>
 
-          <div className="mt-12 pt-8 border-t border-blue-500 text-center">
-            <p className="text-blue-100 text-lg">
+          <div className="mt-12 pt-8 border-t border-gray-200 text-center">
+            <p className="text-gray-600 text-lg">
               Notre équipe vous accompagne du lundi au vendredi de 9h à 18h.<br />
               Réponse garantie sous 24h !
             </p>
