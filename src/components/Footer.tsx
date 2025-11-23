@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FileText, Instagram, Facebook, Twitter } from 'lucide-react';
+import { FileText, Instagram, Facebook, Twitter, Mail } from 'lucide-react';
 import LegalModal from './LegalModal';
 import PrivacyModal from './PrivacyModal';
 import RefundModal from './RefundModal';
@@ -23,7 +23,7 @@ const Footer = () => {
         
         {/* Main Footer Content */}
         <div className="grid md:grid-cols-4 gap-8 mb-12">
-          
+
           {/* Logo & Description */}
           <div className="md:col-span-2 space-y-4">
             <h3 className="text-2xl font-bold tracking-tight">QRAVYO</h3>
@@ -33,8 +33,20 @@ const Footer = () => {
             </p>
           </div>
 
+          {/* Contact */}
+          <div className="space-y-4">
+            <h4 className="text-lg font-semibold">Contact</h4>
+            <a
+              href="mailto:qravyo@gmail.com"
+              className="flex items-center space-x-2 text-gray-400 hover:text-white
+                        transition-colors duration-200">
+              <Mail size={18} />
+              <span>qravyo@gmail.com</span>
+            </a>
+          </div>
+
           {/* Informations */}
-          <div className="space-y-4 md:col-span-2">
+          <div className="space-y-4">
             <h4 className="text-lg font-semibold">Informations</h4>
             <div className="space-y-3">
               <button
