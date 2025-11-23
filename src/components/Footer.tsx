@@ -34,13 +34,13 @@ const Footer = () => {
           </div>
 
           {/* Contact */}
-          <div className="space-y-4">
-            <h4 className="text-lg font-semibold">Contact</h4>
+          <div className="space-y-6">
+            <h4 className="text-2xl font-bold">Contact</h4>
             <a
               href="mailto:qravyo@gmail.com"
-              className="flex items-center space-x-2 text-gray-400 hover:text-white
-                        transition-colors duration-200">
-              <Mail size={18} />
+              className="flex items-center space-x-3 text-gray-300 hover:text-white
+                        transition-colors duration-200 text-lg">
+              <Mail size={24} className="text-yellow-500" />
               <span>qravyo@gmail.com</span>
             </a>
           </div>
