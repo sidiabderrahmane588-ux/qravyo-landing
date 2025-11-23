@@ -26,13 +26,6 @@ const Contact = () => {
               </div>
             </div>
           </div>
-
-          <div className="mt-12 pt-8 border-t border-blue-500 text-center">
-            <p className="text-blue-100 text-lg">
-              Notre équipe vous accompagne du lundi au vendredi de 9h à 18h.<br />
-              Réponse garantie sous 24h !
-            </p>
-          </div>
         </div>
       </div>
     </section>
