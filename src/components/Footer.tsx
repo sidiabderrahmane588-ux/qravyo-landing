@@ -40,7 +40,7 @@ const Footer = () => {
               href="mailto:qravyo@gmail.com"
               className="flex items-center space-x-2 text-gray-400 hover:text-white
                         transition-colors duration-200">
-              <Mail size={18} className="text-green-500" />
+              <Mail size={18} className="text-blue-500" />
               <span>qravyo@gmail.com</span>
             </a>
           </div>
