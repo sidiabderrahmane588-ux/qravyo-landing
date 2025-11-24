@@ -16,7 +16,7 @@ const faqData: FAQItem[] = [
     answer: "C'est très simple :\n- Vous recevez une affiche\n- Vous la placez sur le comptoir\n- Le client scanne le QR code\n- Il laisse son avis\n- Il fait tourner la roue"
   },
   {
-    question: "Qui offre les cadeaux ?",
+    question: "Qui offrent les cadeaux ?",
     answer: "C'est Qravyo qui s'occupe d'offrir les cadeaux aux clients gagnants. Vous n'avez rien à fournir : tout est pris en charge par notre équipe. Votre seul rôle est de permettre à vos clients de participer en scannant le QR code."
   },
   {
