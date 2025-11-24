@@ -23,9 +23,9 @@ const Hero = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button 
+              <button
                 onClick={handleTryNow}
-                className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-4 px-8 rounded-full 
+                className="bg-black hover:bg-gray-800 text-white font-semibold py-4 px-8 rounded-full
                          transition-all duration-200 transform hover:scale-105 active:scale-95
                          shadow-lg hover:shadow-xl text-lg"
               >
