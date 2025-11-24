@@ -49,9 +49,9 @@ const Pricing = () => {
                   ))}
                 </ul>
 
-                <button 
+                <button
                   onClick={handleSubscribe}
-                  className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-4 px-6 rounded-full 
+                  className="w-full bg-black hover:bg-gray-800 text-white font-semibold py-4 px-6 rounded-full
                            transition-all duration-200 transform hover:scale-105 active:scale-95
                            shadow-lg hover:shadow-xl"
                 >
@@ -97,9 +97,9 @@ const Pricing = () => {
                   ))}
                 </ul>
 
-                <button 
+                <button
                   onClick={handleSubscribe}
-                  className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-4 px-6 rounded-full 
+                  className="w-full bg-black hover:bg-gray-800 text-white font-semibold py-4 px-6 rounded-full
                            transition-all duration-200 transform hover:scale-105 active:scale-95
                            shadow-lg hover:shadow-xl"
                 >
