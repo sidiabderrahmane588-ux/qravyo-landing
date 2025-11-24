@@ -13,7 +13,7 @@ const faqData: FAQItem[] = [
   },
   {
     question: "Comment ça fonctionne ?",
-    answer: "C'est très simple :\n- Vous recevez une affiche\n- Vous la placez sur le comptoir\n- Le client scanne le QR code\n- Il laisse son avis\n- Il tourne la roue"
+    answer: "C'est très simple :\n- Vous recevez une affiche\n- Vous la placez sur le comptoir\n- Le client scanne le QR code\n- Il laisse son avis\n- Il fait tourner la roue"
   },
   {
     question: "Qui offre les cadeaux ?",
