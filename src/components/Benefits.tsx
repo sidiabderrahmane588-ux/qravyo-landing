@@ -10,7 +10,7 @@ const benefits = [
   },
   {
     icon: Heart,
-    title: "Fidélisation client",
+    title: "Fidélisation cliente",
     description: "Créez un lien unique avec vos clients grâce à l'expérience ludique",
     gradient: "from-red-500 to-pink-500"
   },
