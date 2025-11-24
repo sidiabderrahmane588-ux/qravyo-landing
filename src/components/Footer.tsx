@@ -102,10 +102,14 @@ const Footer = () => {
               href="https://instagram.com/qravyo"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-pink-500 hover:text-pink-400 transition-colors duration-200"
+              className="transition-transform duration-200 hover:scale-110"
               aria-label="Instagram"
             >
-              <Instagram size={28} />
+              <img
+                src="/Capture d'écran 2025-11-24 à 22.02.34.png"
+                alt="Instagram"
+                className="w-7 h-7 rounded-lg"
+              />
             </a>
             <a
               href="https://facebook.com/qravyo"
