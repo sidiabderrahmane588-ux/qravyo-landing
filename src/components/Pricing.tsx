@@ -51,7 +51,7 @@ const Pricing = () => {
 
                 <button
                   onClick={handleSubscribe}
-                  className="w-full bg-black hover:bg-gray-800 text-white font-semibold py-4 px-6 rounded-full
+                  className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-6 rounded-full
                            transition-all duration-200 transform hover:scale-105 active:scale-95
                            shadow-lg hover:shadow-xl"
                 >
@@ -61,9 +61,9 @@ const Pricing = () => {
             </div>
 
             {/* Lifetime Plan */}
-            <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-3xl p-8 shadow-xl 
+            <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-3xl p-8 shadow-xl
                           transform hover:scale-105 transition-all duration-300 relative overflow-hidden">
-              
+
               {/* Launch Offer Badge */}
               <div className="absolute top-4 right-4">
                 <div className="bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full
@@ -99,7 +99,7 @@ const Pricing = () => {
 
                 <button
                   onClick={handleSubscribe}
-                  className="w-full bg-black hover:bg-gray-800 text-white font-semibold py-4 px-6 rounded-full
+                  className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-6 rounded-full
                            transition-all duration-200 transform hover:scale-105 active:scale-95
                            shadow-lg hover:shadow-xl"
                 >
