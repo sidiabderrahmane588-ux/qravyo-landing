@@ -97,7 +97,7 @@ const Footer = () => {
 
         {/* Social Media Icons */}
         <div className="border-t border-gray-800 pt-8 pb-6">
-          <div className="flex justify-center items-center space-x-6">
+          <div className="flex justify-center items-center space-x-4">
             <a
               href="https://instagram.com/qravyo"
               target="_blank"
