@@ -17,7 +17,7 @@ const steps = [
   {
     icon: Gift,
     title: "Il gagne peut-être",
-    description: "Il fait tourner la roue de la chance et peut remporter un petit cadeau",
+    description: "Il fait tourner la roue de la chance et peut remporter un cadeau",
     color: "text-green-500"
   }
 ];
