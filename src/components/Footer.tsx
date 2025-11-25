@@ -102,7 +102,7 @@ const Footer = () => {
               href="https://instagram.com/qravyo"
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 hover:bg-orange-500 transition-all duration-300 hover:rotate-12"
+              className="group flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 hover:bg-pink-500 transition-all duration-300 hover:rotate-12"
               aria-label="Instagram"
             >
               <Instagram size={18} className="text-white" />
@@ -129,7 +129,7 @@ const Footer = () => {
               href="https://tiktok.com/@qravyo"
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 hover:bg-orange-500 transition-all duration-300 hover:rotate-12"
+              className="group flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 hover:bg-black transition-all duration-300 hover:rotate-12"
               aria-label="TikTok"
             >
               <svg
