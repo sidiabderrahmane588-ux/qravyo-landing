@@ -102,40 +102,40 @@ const Footer = () => {
               href="https://instagram.com/qravyo"
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 hover:bg-orange-500 transition-all duration-300 hover:rotate-12"
+              className="group flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 hover:bg-orange-500 transition-all duration-300 hover:rotate-12"
               aria-label="Instagram"
             >
-              <Instagram size={20} className="text-white" />
+              <Instagram size={18} className="text-white" />
             </a>
             <a
               href="https://facebook.com/qravyo"
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 hover:bg-orange-500 transition-all duration-300 hover:rotate-12"
+              className="group flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 hover:bg-orange-500 transition-all duration-300 hover:rotate-12"
               aria-label="Facebook"
             >
-              <Facebook size={20} className="text-white" />
+              <Facebook size={18} className="text-white" />
             </a>
             <a
               href="https://twitter.com/qravyo"
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 hover:bg-orange-500 transition-all duration-300 hover:rotate-12"
+              className="group flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 hover:bg-orange-500 transition-all duration-300 hover:rotate-12"
               aria-label="Twitter"
             >
-              <Twitter size={20} className="text-white" />
+              <Twitter size={18} className="text-white" />
             </a>
             <a
               href="https://tiktok.com/@qravyo"
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 hover:bg-orange-500 transition-all duration-300 hover:rotate-12"
+              className="group flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 hover:bg-orange-500 transition-all duration-300 hover:rotate-12"
               aria-label="TikTok"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
+                width="18"
+                height="18"
                 viewBox="0 0 24 24"
                 fill="currentColor"
                 className="text-white"
