@@ -111,7 +111,7 @@ const Footer = () => {
               href="https://facebook.com/qravyo"
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 hover:bg-orange-500 transition-all duration-300 hover:rotate-12"
+              className="group flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 hover:bg-blue-700 transition-all duration-300 hover:rotate-12"
               aria-label="Facebook"
             >
               <Facebook size={18} className="text-white" />
@@ -120,7 +120,7 @@ const Footer = () => {
               href="https://twitter.com/qravyo"
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 hover:bg-orange-500 transition-all duration-300 hover:rotate-12"
+              className="group flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 hover:bg-blue-700 transition-all duration-300 hover:rotate-12"
               aria-label="Twitter"
             >
               <Twitter size={18} className="text-white" />
